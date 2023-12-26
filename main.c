@@ -96,6 +96,7 @@ static void MX_DMA_Init(void);
 void TIM_ICG_Conf(uint32_t ICG);
 void TIM_SH_Conf(uint32_t SH);
 void CCD_Flush(void);
+void TIM(void);
 
 /* USER CODE END PFP */
 
@@ -713,6 +714,10 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void TIM(){
+
+}
 
 void TIM_ICG_Conf(uint32_t ICG)
 {
